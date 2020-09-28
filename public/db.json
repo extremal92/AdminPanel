@@ -1,0 +1,58 @@
+{
+
+  "chart":{
+      "options":{
+        "chart": {
+          "id": "apexchart-admin-panel"
+        },
+        "xaxis": {
+          "categories": ["Page A", "Page B", "Page C","Page D","Page E","Page F","Page G","Page H","Page I","Page J","Page K"]
+        }
+      },
+      "series": [
+        {
+        "name": "series-1",
+        "data": [
+          2500, 1500, 10000, 4500, 5000, 4700, 10000, 4500, 5000, 2000, 3500
+          ]
+      }]
+  },
+  "person":[
+    {
+      "name": "Test Test",
+      "idnp": "2007002003324",
+      "phone": "69967996",
+      "card": "2019 3828 2323 4477",
+      "date": "14:45 12/11/18"
+    },
+    {
+      "name": "Test Djoe",
+      "idnp": "2006001003324",
+      "phone": "69967996",
+      "card": "2029 3850 2323 4477",
+      "date": "12:00 11/06/18"
+    },
+    {
+      "name": "Jon Van",
+      "idnp": "1003006026324",
+      "phone": "79797997",
+      "card": "2019 3830 2323 7477",
+      "date": "14:45 10/12/18"
+    },
+    {
+      "name": "Roman Romanov",
+      "idnp": "2007002003324",
+      "phone": "69967996",
+      "card": "2019 5820 2323 4477",
+      "date": "14:45 12/12/18"
+    },
+    {
+      "name": "Ivan Ivanov",
+      "idnp": "2007002003324",
+      "phone": "69967996",
+      "card": "2019 3820 2423 4477",
+      "date": "14:45 12/12/18"
+    }
+  ]
+}
+

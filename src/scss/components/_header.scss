@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    background-color: $header-bg;
+    .header__logo{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        img{
+            width: 70px;
+            height: 70px;
+            object-fit: contain;
+        }
+        h1{
+            margin: 0 15px;
+        }
+    }
+    .header__link{
+        text-decoration: none;
+        margin: 0 25px;
+        display: flex;
+        align-items: center;
+        h1, span {
+            color: $white;
+        }
+    }
+}

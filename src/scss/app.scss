@@ -1,0 +1,50 @@
+@import "variables";
+@import "libs/normalize";
+@import "components/header";
+@import "components/suport";
+
+
+
+.main{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    .navList{
+        .navList-item{
+            height: 40px;
+            display: flex;
+            align-items: center;
+            .navList-item-link{
+                text-decoration: none;
+                i{
+                    margin-right: 15px;
+                }
+            }
+            .navList-item-link:hover{
+                i, span{
+                    color: $site-color;
+                }
+            }
+        }
+
+    }
+    .menu{
+        width: 300px;
+        padding: 0 25px;
+        box-shadow: 0 7px 17px -2px #757575;
+    }
+    .content{
+        width: calc(100% - 300px);
+        .content-title{
+            height: 80px;
+            padding-left: 25px;
+            display: flex;
+            align-items: center;
+            background-color: $site-color;
+            h3{
+                color: $white;
+                margin: 0;
+            }
+        }
+    }
+}
